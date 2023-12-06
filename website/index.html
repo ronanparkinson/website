@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>RQMedical</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Welcome to RQM</h1>
+                <p>Where idea's from the future become the now.</p>
+                <a href="about.html" class="hero-btn">Learn More</a>
+            </div>
+        </section>
+        <section class="about">
+            <h1>More About Us</h1>
+            <p>We are an Irish Med tech company that is looking to provide lifesaving tech</p>
+
+            <div class="row">
+                <div class="about-col">
+                    <h3>How we started</h3>
+                    <p>We believed there was more to come from technology that would benefit the world.
+                    We saw that there were openings where peoples lives could be saved through the use of 
+                    real world technical solutions.
+                    </p>
+                </div>
+                <div class="about-col">
+                    <h3>How we formed</h3>
+                    <p>All members of the company are currently related to eachother. We Had similar invisions 
+                    about where the future of technology was yet to reach it's full potential. 
+                    </p>
+                </div>
+                <div class="about-col">
+                    <h3>Future plans</h3>
+                    <p>Currently we want to break into the medical technology market as we have identified
+                        potential gaps in in this area and we want to develop innovative products that 
+                        could have a massive impact on peoples lives.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h1>Please get in touch!</h1>
+            <a href="contact.html" class="hero-btn">Contact Us</a>
+        </section>
+
+        <section class="footer">
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <a href="https://twitter.com/RQmedical"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/rq_medical/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rqmedical/"><i class="fa fa-linkedin"></i></a>
+                </div>
+        </section>        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html> 
