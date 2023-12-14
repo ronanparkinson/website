@@ -190,6 +190,9 @@ h3{
   .row{
     flex-direction: column;
   }
+  .about-col{
+    margin-top: 70px;
+  }
 } 
 
 .contact{
@@ -202,6 +205,12 @@ h3{
   text-align: center;
   padding: 100px 0;
 }
+
+@media(max-width: 700px){
+ .contact{
+  margin-top: 200px;
+ }
+} 
 
 .contact h1{
   color: #000;
