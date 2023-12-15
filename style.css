@@ -43,7 +43,7 @@ nav img{
 }
 
 .nav-links ul li a{
-  color: #000;
+  color: #223b2acc;
   text-decoration: none;
   font-size: 13px;
 
@@ -128,7 +128,7 @@ nav .fa{
 
   nav .fa{
     display: block;
-    color: #000;
+    color: #223b2acc;
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
@@ -186,6 +186,10 @@ h3{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
+.about-col h3{
+  color: #fff;
+}
+
 @media(max-width: 700px){
   .row{
     flex-direction: column;
@@ -213,7 +217,7 @@ h3{
 } 
 
 .contact h1{
-  color: #000;
+  color: #fff;
   margin-bottom: 40px;
   padding: 0;
 }
